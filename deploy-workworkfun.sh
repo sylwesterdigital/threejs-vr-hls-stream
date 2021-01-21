@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /Users/misiak/Desktop/2021/vrspace/cinema/ &&
+cd /Users/misiak/Desktop/2021/threejs-vr-hls-stream/room/ &&
 npm run build &&
 
-rsync -av -e ssh --exclude='*.map' /Users/misiak/Desktop/2021/vrspace/cinema/dist/ root@sylwester.tech:/var/www/workwork.fun/vr/cinema
+rsync -av -e ssh --exclude='*.map' /Users/misiak/Desktop/2021/threejs-vr-hls-stream/room/dist/ root@sylwester.tech:/var/www/workwork.fun/vr/room
